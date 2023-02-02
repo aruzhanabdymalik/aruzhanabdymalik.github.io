@@ -1,0 +1,86 @@
+.banner{
+    background-image: url(banner.jpg);
+    background-color: beige;
+    text-align: center;
+    font-size: 2rem;
+    height: 100px;
+}
+
+a:hover {
+    border: 1px solid black;
+    padding: 12px;
+    background-color: rgb(123, 123, 213);
+} 
+a:visited{
+    color: blue;
+    font-size: 12pt;
+    font-variant: small-caps;
+}
+
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li  {
+    float: left
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+#main-heading {
+  text-align: center;
+  color: rgb(154, 13, 13);
+}
+
+p {
+  text-align: center;
+  font-size: 12pt;
+  color: rgb(44, 44, 111)
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(193, 192, 192);
+}
+
+.categories {
+  float: right;
+}
+
+h2 {
+  border: 1px solid black;
+  background-color: coral;
+}
+
+aside h3 {
+  background-color: rgb(156, 156, 211);
+}
+
+h4{
+  color: red;
+}
+h5 {
+  background-color: rgb(147, 109, 194);
+}
+
+.map{
+  text-align: center;
+}
